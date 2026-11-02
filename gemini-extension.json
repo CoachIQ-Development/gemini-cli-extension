@@ -1,0 +1,13 @@
+{
+  "name": "coachiq",
+  "version": "1.0.0",
+  "description": "Manage a CoachIQ coaching business: bookings, clients, forms, lessons, inbox, programs, website.",
+  "mcpServers": {
+    "coachiq": {
+      "httpUrl": "https://mcp.coachiq.io/mcp",
+      "description": "CoachIQ remote MCP server (OAuth 2.1 + PKCE; sign in with a CoachIQ Admin or Coach account)",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
